@@ -154,7 +154,7 @@ img{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 2rem;
-    margin: 0 250px 0;
+    
 }
 
 .producto:nth-child(1) {
@@ -256,4 +256,12 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* Blog */
+
+.contenedor-blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
 }
